@@ -18,14 +18,14 @@ with st.expander("Dataset Features", expanded=True):
     - **BloodPressure**: Diastolic blood pressure (mm Hg)
     - **SkinThickness**: Triceps skin fold thickness (mm)
     - **Insulin**: 2-Hour serum insulin""")
-    st.latex("""
-    \mu \, \\text{U/ml} 
+    st.latex(r"""
+    \mu \, \text{U/ml} 
     """)
     st.markdown("""
     - **BMI**: Body mass index
     """)
     st.latex(r'''
-    \text{BMI} = \frac{\text{weight (kg)}}{\left(\text{height (m)}\right)^2}
+    \\text{BMI} = \frac{\text{weight (kg)}}{\left(\text{height (m)}\right)^2}
     ''')
     st.markdown("""
     - **DiabetesPedigreeFunction**: Diabetes pedigree function
