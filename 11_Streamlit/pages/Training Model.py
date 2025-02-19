@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 @st.cache_data
 def get_dataframe():
-    return pd.read_csv('diabetes.csv')
+    return pd.read_csv('11_Streamlit/diabetes.csv')
 
 df = get_dataframe()
 
